@@ -1,6 +1,31 @@
 # LLMOPS Chatgpt application : kubernetes & Github actions
 # Help on FAST API
 
+1. Set Up The ChatGPT Application
+
+    Create a ChatGPT application using the OpenAI API. For simplicity.
+2. Containerize The Application
+
+    Write a Dockerfile to containerize the ChatGPT application.
+
+3. Set Up Kubernetes
+
+   Write Kubernetes YAML files for deployment and service.
+   
+4. Configure GitHub Actions
+
+    Create a GitHub Actions workflow: Write a .github/workflows/actions.yml file to automate the CI/CD process.
+
+5. Deploy to Google Cloud
+
+    Create a GKE Cluster:
+
+    bash
+
+    gcloud container clusters create chatgpt-cluster --num-nodes=3 --zone=YOUR_ZONE
+   
+7. Access Your Application
+
 ```
 pip install "fastapi[all]"
 
